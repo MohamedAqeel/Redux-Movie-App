@@ -1,0 +1,56 @@
+@import "../../common/colors.scss";
+
+.movie-section {
+    padding: 40px;
+    color: $font-primary;
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-title {
+    h1{
+        font-weight: 400;
+        font-size: 34px;
+    }
+}
+
+.movie-ratings {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $font-secondary;
+    flex-direction: row;
+    display: flex;
+    font-size: 14px;
+}
+
+.single-rating-item {
+    display: flex;
+    margin-right: 20px;
+}
+
+.movie-description{
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    line-height: 1.8rem;
+
+}
+
+.single-info-item {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.info-title {
+    font-weight: 500;
+    size: 15px;
+    width: 120px;
+
+}
+
+.info-value {
+    font-weight: 400;
+    size: 14px;
+    color: $font-secondary;
+}

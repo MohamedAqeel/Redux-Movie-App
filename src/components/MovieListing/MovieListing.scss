@@ -1,0 +1,26 @@
+@import "../../common/colors.scss" ;
+
+.movies-list {
+    margin: 40px 0px;
+    h2{
+        color: $font-secondary;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(220px,1fr));
+    grid-gap: 15px;
+}
+
+.movie-error , .movie-loading {
+    text-align: center;
+    padding-top: calc((100vh - 260px)/2);
+    height: calc(100vh - 270px);
+    width: 100%;
+    h3{
+     color: $font-primary;
+    }
+}
